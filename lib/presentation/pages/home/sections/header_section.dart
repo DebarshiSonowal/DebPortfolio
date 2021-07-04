@@ -217,7 +217,7 @@ class _HeaderSectionState extends State<HeaderSection> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             SelectableText(
-                              "${StringConst.BEHANCE}:",
+                              "${StringConst.LinkedIn}:",
                               style: socialTitleStyle,
                             ),
                             SpaceH8(),

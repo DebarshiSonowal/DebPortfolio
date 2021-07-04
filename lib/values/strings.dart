@@ -29,7 +29,7 @@ class StringConst {
   static const String DOWNLOAD_CV = "Download CV";
   static const String EMAIL = "Email";
   static const String DEV_EMAIL_2 = "debarkhisonowal@gmail.com";
-  static const String BEHANCE = "Linkedin";
+  static const String LinkedIn = "Linkedin";
   static const String BEHANCE_ID = "https://www.linkedin.com/in/debarshi-sonowal-a48925161";
   static const String HIRE_ME_NOW = "Hire Me Now";
   static const String UI_UX = "UI/UX Designer";
@@ -65,7 +65,7 @@ class StringConst {
   static const String CREATIVE_DESIGN = "Need Mobile Application?";
   static const String HELP = "I can Help You!";
   static const String FOLLOW_ME_1 = "You can also follow me here:";
-  static const String DRIBBLE = "Facebook";
+  static const String Facebook = "Facebook";
   static const String INSTA = "Insta";
 
   //Skills Section
@@ -95,13 +95,13 @@ class StringConst {
 
   //Stats Section
   static const String HAPPY_CLIENTS = "Happy Clients";
-  static const String HAPPY_CLIENTS_NUM = "120";
+  static const String HAPPY_CLIENTS_NUM = "5";
   static const String YEARS_OF_EXPERIENCE = "Years of Experience";
-  static const String YEARS_OF_EXPERIENCE_NUM = "10";
+  static const String YEARS_OF_EXPERIENCE_NUM = "2";
   static const String INCREDIBLE_PROJECTS = "Incredible Projects";
-  static const String INCREDIBLE_PROJECTS_NUM = "230";
-  static const String AWARD_WINNING = "Award Winning";
-  static const String AWARD_WINNING_NUM = "18";
+  static const String INCREDIBLE_PROJECTS_NUM = "20";
+  static const String AWARD_WINNING = "Client Projects";
+  static const String AWARD_WINNING_NUM = "10";
 
   //Projects Section
   static const String MEET_MY_PROJECTS = "Meet My Projects";
@@ -184,11 +184,11 @@ class StringConst {
   static const String FIND_ME = "Find me on..";
 
   //URL Links
-  static const String LINKED_IN_URL = "https:linkedin.com/in/";
-  static const String INSTAGRAM_URL = "https:instagram.com/in/";
-  static const String GITHUB_URL = "https://github.com/";
-  static const String FACEBOOK_URL = "https://facebook.com/";
-  static const String TWITTER_URL = "http://twitter.com/";
+  static const String LINKED_IN_URL = "https://www.linkedin.com/in/debarshi-sonowal-a48925161";
+  static const String INSTAGRAM_URL = "https://www.instagram.com/debarshi_sonowal/";
+  static const String GITHUB_URL = "https://github.com/DebarshiSonowal";
+  static const String FACEBOOK_URL = "https://www.facebook.com/debarkhi.sonowal/";
+  static const String TWITTER_URL = "https://twitter.com/Iamdebarkhi";
   static const String DAVID_LEGEND_URL = "https://davidcobbina.com/#/";
   static const String DESIGN_URL =
       "https://www.behance.net/gallery/95351691/Resume-Design-03";

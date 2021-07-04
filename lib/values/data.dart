@@ -22,30 +22,37 @@ class Data {
       iconData: FontAwesomeIcons.instagram,
       url: StringConst.INSTAGRAM_URL,
     ),
+    SocialButtonData(
+      tag: StringConst.GITHUB_URL,
+      iconData: FontAwesomeIcons.github,
+      url: StringConst.GITHUB_URL,
+    ),
   ];
   static List<SocialButton2Data> socialData2 = [
     SocialButton2Data(
-      title: StringConst.BEHANCE,
-      iconData: FontAwesomeIcons.behance,
-      url: StringConst.TWITTER_URL,
+      title: StringConst.LinkedIn,
+      iconData: FontAwesomeIcons.linkedin,
+      url: StringConst.LINKED_IN_URL,
+      titleColor: AppColors.lightBlue,
+      buttonColor: AppColors.lightBlue,
+      iconColor: AppColors.white,
+    ),
+    SocialButton2Data(
+      title: StringConst.Facebook,
+      iconData: FontAwesomeIcons.facebook,
+      url: StringConst.FACEBOOK_URL,
+
       titleColor: AppColors.blue300,
       buttonColor: AppColors.blue300,
       iconColor: AppColors.white,
     ),
     SocialButton2Data(
-      title: StringConst.DRIBBLE,
-      iconData: FontAwesomeIcons.dribbble,
-      url: StringConst.TWITTER_URL,
-      titleColor: AppColors.pink300,
-      buttonColor: AppColors.pink300,
-      iconColor: AppColors.white,
-    ),
-    SocialButton2Data(
       title: StringConst.INSTA,
       iconData: FontAwesomeIcons.instagram,
-      url: StringConst.TWITTER_URL,
-      titleColor: AppColors.yellow300,
-      buttonColor: AppColors.yellow300,
+      url: StringConst.INSTAGRAM_URL,
+
+      titleColor: AppColors.pink300,
+      buttonColor: AppColors.pink300,
       iconColor: AppColors.white,
     ),
   ];
@@ -68,20 +75,20 @@ class Data {
   static List<SkillCardData> skillCardData = [
     SkillCardData(
       title: StringConst.SKILLS_1,
-      iconData: FontAwesomeIcons.compress,
+      iconData: FontAwesomeIcons.uikit,
     ),
     SkillCardData(title: "", iconData: Icons.pages_outlined), //not being used
     SkillCardData(
       title: StringConst.SKILLS_2,
-      iconData: Icons.pages_outlined,
+      iconData: FontAwesomeIcons.server,
     ),
     SkillCardData(
       title: StringConst.SKILLS_3,
-      iconData: FontAwesomeIcons.paintBrush,
+      iconData: FontAwesomeIcons.android,
     ),
     SkillCardData(
       title: StringConst.SKILLS_4,
-      iconData: FontAwesomeIcons.recordVinyl,
+      iconData:Icons.flutter_dash,
     ),
     SkillCardData(title: "", iconData: Icons.pages_outlined), //not being used
   ];
@@ -104,8 +111,8 @@ class Data {
     ProjectCategoryData(title: StringConst.ALL, number: 6),
     ProjectCategoryData(title: StringConst.BRANDING, number: 6),
     ProjectCategoryData(title: StringConst.PACKAGING, number: 6),
-    ProjectCategoryData(title: StringConst.PHOTOGRAPHER, number: 6),
-    ProjectCategoryData(title: StringConst.WEB_DESIGN, number: 6),
+    // ProjectCategoryData(title: StringConst.PHOTOGRAPHER, number: 6),
+    // ProjectCategoryData(title: StringConst.WEB_DESIGN, number: 6),
   ];
 
   static List<String> awards1 = [

@@ -26,7 +26,7 @@ List<FooterItem> footerItems = [
   FooterItem(
     title: StringConst.FOLLOW_ME_2 + ":",
     subtitle: StringConst.BEHANCE_ID,
-    iconData: FontAwesomeIcons.behance,
+    iconData: FontAwesomeIcons.linkedin,
   ),
 ];
 
@@ -124,7 +124,7 @@ class _FooterSectionState extends State<FooterSection> {
               ClipRRect(
                 borderRadius: BorderRadius.all(const Radius.circular(20)),
                 child: Image.asset(
-                  ImagePath.GHANA_FLAG,
+                  ImagePath.INDIA,
                   width: Sizes.WIDTH_16,
                   height: Sizes.HEIGHT_16,
                   fit: BoxFit.cover,
