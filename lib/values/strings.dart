@@ -118,7 +118,7 @@ class StringConst {
   //Awards & Section
   static const String MY = "My";
   static const String CV = "CV";
-  static const String MY_AWARDS = "my academics & certifications";
+  static const String MY_AWARDS = "academics & certifications";
   static const String AWARDS_TITLE = "Academics & Certifications";
   static const String AWARDS_DESC =
       "Pursuing my B.Tech in Computer Science and also doing freelancing by developing applications";

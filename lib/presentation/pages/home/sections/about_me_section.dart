@@ -17,7 +17,7 @@ import 'package:responsive_builder/responsive_builder.dart';
 //TODO:: Add animation to socialButton2
 //TODO:: Add floating bubbles if I am feeling adventurous
 
-const double kSpacingSm = 40.0;
+const double kSpacingSm = 20.0;
 const double kRunSpacingSm = 24.0;
 const double kSpacingLg = 24.0;
 const double kRunSpacingLg = 16.0;

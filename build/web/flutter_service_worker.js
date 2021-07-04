@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "bcb991e38c248df9abadfb7bf8c2a1f5",
+  "assets/AssetManifest.json": "74a4ccecf009810528e4ab10015fd91f",
 "assets/assets/images/blob_black.png": "14198d608b7f0980998d329cd353e290",
 "assets/assets/images/blog_01-700x700.jpeg": "cd78990246f63c4d64ca5c26bcf31289",
 "assets/assets/images/blog_02-700x700.jpeg": "01c4b84663980a0b4f55f4bd196492bd",
@@ -16,6 +16,7 @@ const RESOURCES = {
 "assets/assets/images/dots_globe_yellow2.png": "d1394584431e43b6973ca031de59a284",
 "assets/assets/images/ghana_flag.png": "b0afee866ab3333560a0072c5d53bce2",
 "assets/assets/images/hi_there.png": "1ac6f5101b6a5511f4ad8f8965a49f89",
+"assets/assets/images/india.png": "6428cb2f1029cce727ccf9e80d7d2d3c",
 "assets/assets/images/logo-dark.png": "172c6851a256eb6ca04d9b99cc231ac8",
 "assets/assets/images/logo-light.png": "708b0d915b6cededbda03f881683e529",
 "assets/FontManifest.json": "cab905cb3aac16cd8f8b52a8d504c382",
@@ -29,9 +30,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "0d76ceb6ec2e581d7707851ef04bcc41",
-"/": "0d76ceb6ec2e581d7707851ef04bcc41",
-"main.dart.js": "cdab10f1b96943f8b89f7329776616e1",
+"index.html": "397f97510b7cf1b499dd9f91cbc40939",
+"/": "397f97510b7cf1b499dd9f91cbc40939",
+"main.dart.js": "5ec9a7c6c8f0b85fb2ff3578604e2ec8",
 "manifest.json": "de46d33d0e1f551304f1b9c70eaf1ea4",
 "version.json": "17d7ed602240456b553a02943c2e48a6"
 };
