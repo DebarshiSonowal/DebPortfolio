@@ -2,7 +2,7 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "Nimbus";
+  static const String APP_NAME = "Portfolio";
 
   //Nav Section
   static const String NAME_ABBREV = "CA";
@@ -14,22 +14,23 @@ class StringConst {
   static const String CONTACT = "Contacts";
 
   static const String CONTACT_ME = "Contact Me";
-  static const String DEV_EMAIL = "davidcobbina47@gmail.com";
+  static const String DEV_EMAIL = "debarkhisonowal@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   //Header Section
-  static const String FIRST_NAME = "Ameli";
-  static const String INTRO = "Hi! I'm Ameli Nimbus -";
-  static const String POSITION = "UI/UX Designer";
+  static const String FIRST_NAME = "Debarshi";
+  static const String INTRO = "Hi! I'm Debarshi Sonowal -";
+  static const String POSITION1 = "Android App. Developer";
+  static const String POSITION2 = "Flutter App. Developer";
   static const String ABOUT_ME_1 =
-      "Product Designer and Digital Creative Director working in design field for";
+      "Android and Flutter developer working in mobile application development for";
   static const String ABOUT_ME_2 =
-      "13 years so far, specialized in UI/UX, Branding and digital designs.";
+      "2 years so far, specialized in UI/UX and Backend.";
   static const String DOWNLOAD_CV = "Download CV";
   static const String EMAIL = "Email";
-  static const String DEV_EMAIL_2 = "nimbus2000@mail.com";
-  static const String BEHANCE = "Behance";
-  static const String BEHANCE_ID = "behance.net/nimbus200";
+  static const String DEV_EMAIL_2 = "debarkhisonowal@gmail.com";
+  static const String BEHANCE = "Linkedin";
+  static const String BEHANCE_ID = "https://www.linkedin.com/in/debarshi-sonowal-a48925161";
   static const String HIRE_ME_NOW = "Hire Me Now";
   static const String UI_UX = "UI/UX Designer";
   static const String UI_UX_DESC = "creative websites for you";
@@ -50,7 +51,7 @@ class StringConst {
   static const String THERE = "There!";
   static const String ABOUT_ME = "about me";
   static const String ABOUT_ME_DESC =
-      "Product Designer and Digital Creative Director working in design field for 13 years so far, specialized in UI/UX, Branding and digital designs. These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful. beautifully, too.";
+      "Android and Flutter developer working in mobile application development for 2 years. I can bring your idea to life in form of mobile application.";
   static const String ABOUT_ME_DESC_1 =
       "Product Designer and Digital Creative Director working in design ";
   static const String ABOUT_ME_DESC_2 =
@@ -61,15 +62,15 @@ class StringConst {
       "story we tell, every brand we build, and every interaction we";
   static const String ABOUT_ME_DESC_5 =
       "create must not only look beautiful. beautifully, too.";
-  static const String CREATIVE_DESIGN = "Need Creative Design?";
+  static const String CREATIVE_DESIGN = "Need Mobile Application?";
   static const String HELP = "I can Help You!";
   static const String FOLLOW_ME_1 = "You can also follow me here:";
-  static const String DRIBBLE = "Dribble";
+  static const String DRIBBLE = "Facebook";
   static const String INSTA = "Insta";
 
   //Skills Section
   static const String MY_SKILLS = "my skills";
-  static const String SKILLS_TITLE_1 = "What My Design";
+  static const String SKILLS_TITLE_1 = "What My development";
   static const String SKILLS_TITLE_2 = "Skills Include";
   static const String SKILLS_DESC =
       "These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful.";
@@ -82,13 +83,13 @@ class StringConst {
   static const String SKILLS_1 = "UI/UX Design";
   static const String SKILLS_1_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
-  static const String SKILLS_2 = "Graphic Design";
+  static const String SKILLS_2 = "Backend";
   static const String SKILLS_2_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
-  static const String SKILLS_3 = "Motion Design";
+  static const String SKILLS_3 = "Android Application";
   static const String SKILLS_3_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
-  static const String SKILLS_4 = "Photo Retouch";
+  static const String SKILLS_4 = "Flutter Application";
   static const String SKILLS_4_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
 
@@ -109,30 +110,30 @@ class StringConst {
       "Product Designer and Digital Creative Director working in design field for 13 years so far, specialized in UI/UX, Branding and digital designs. These are the words we live by in everything we do.";
   static const String ALL_PROJECTS = "All Projects";
   static const String ALL = "All";
-  static const String BRANDING = "Branding";
-  static const String PACKAGING = "Packaging";
+  static const String BRANDING = "Android";
+  static const String PACKAGING = "Flutter";
   static const String PHOTOGRAPHY = "Photography";
   static const String WEB_DESIGN = "Web Design";
 
   //Awards & Section
   static const String MY = "My";
   static const String CV = "CV";
-  static const String MY_AWARDS = "my awards";
-  static const String AWARDS_TITLE = "Honours & Awards";
+  static const String MY_AWARDS = "my academics & certifications";
+  static const String AWARDS_TITLE = "Academics & Certifications";
   static const String AWARDS_DESC =
-      "Since 2015 I have been a visionary and a reliable software engineering partner for world-class brands.";
-  static const String AWARDS_TYPE_TITLE_1 = "In Press";
-  static const String AWARDS_TYPE_TITLE_2 = "Awards";
-  static const String AWARDS_1 = "Forbes";
-  static const String AWARDS_2 = "New York Times";
-  static const String AWARDS_3 = "Smashing Magazine";
-  static const String AWARDS_4 = "Entrepreneur";
-  static const String AWARDS_5 = "First Magazine";
-  static const String AWARDS_6 = "The Type Direction Club 60";
-  static const String AWARDS_7 = "ClassiCon-Brochure 2017";
-  static const String AWARDS_8 = "The Good Design Awards 2017";
-  static const String AWARDS_9 = "For Print Only-Under consideration";
-  static const String AWARDS_10 = "CI Magazine 2017";
+      "Pursuing my B.Tech in Computer Science and also doing freelancing by developing applications";
+  static const String AWARDS_TYPE_TITLE_1 = "Academics";
+  static const String AWARDS_TYPE_TITLE_2 = "Certifications";
+  static const String AWARDS_1 = "B.Tech in Computer Science (Pursuing)";
+  static const String AWARDS_2 = "Diploma in Computer Science";
+  static const String AWARDS_3 = "HSLC from SJV,Joysagar";
+  // static const String AWARDS_4 = "Entrepreneur";
+  // static const String AWARDS_5 = "First Magazine";
+  static const String AWARDS_6 = "Flutter development bootcamp";
+  static const String AWARDS_7 = "Python Development";
+  static const String AWARDS_8 = "IOT Certification";
+  // static const String AWARDS_9 = "For Print Only-Under consideration";
+  // static const String AWARDS_10 = "CI Magazine 2017";
 
   //Brands Section
   static const String BRANDS_SECTION_TITLE = "Brands I've worked with";
@@ -169,15 +170,15 @@ class StringConst {
   //Footer Section
   static const String LETS_TALK = "Let's Talk!";
   static const String PHONE_ME = "Phone Me";
-  static const String PHONE_NUMBER = "+1 800 123 456 789";
+  static const String PHONE_NUMBER = "+918638372157";
   static const String MAIL_ME = "Mail Me";
   static const String FOLLOW_ME_2 = "Follow Me";
   static const String FOLLOW_ME_2_URL = "behance.net/nimbus2000";
   static const String RIGHTS_RESERVED = "© 2021 All rights reserved";
   static const String BUILT_BY = "Built with Flutter by";
-  static const String DAVID_COBBINA = "David Cobbina";
+  static const String DAVID_COBBINA = "Debarshi Sonowal";
   static const String DESIGNED_BY = "Designed by";
-  static const String WEB_GENIUS_LAB = "WebGeniusLab";
+  static const String WEB_GENIUS_LAB = "Debarshi Sonowal";
   static const String MADE_IN_GHANA = "Made in";
   static const String WITH_LOVE = "with";
   static const String FIND_ME = "Find me on..";

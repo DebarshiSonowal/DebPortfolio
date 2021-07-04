@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:nimbus/presentation/layout/adaptive.dart';
 import 'package:nimbus/presentation/widgets/buttons/nimbus_button.dart';
@@ -38,11 +39,16 @@ class _HeaderSectionState extends State<HeaderSection> {
     );
     double headerIntroTextSize = responsiveSize(
       context,
-      Sizes.TEXT_SIZE_28,
-      Sizes.TEXT_SIZE_56,
+      Sizes.TEXT_SIZE_24,
+      Sizes.TEXT_SIZE_50,
       md: Sizes.TEXT_SIZE_36,
     );
-
+    double headerIntroTextSize2 = responsiveSize(
+      context,
+      Sizes.TEXT_SIZE_18,
+      Sizes.TEXT_SIZE_48,
+      md: Sizes.TEXT_SIZE_36,
+    );
     double bodyTextSize =
         responsiveSize(context, bodyTextSizeSm, bodyTextSizeLg);
     double socialTextSize =
@@ -106,20 +112,79 @@ class _HeaderSectionState extends State<HeaderSection> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SelectableText(
-                      StringConst.INTRO,
-                      style: textTheme.headline2?.copyWith(
+                    // SelectableText(
+                    //   StringConst.INTRO,
+                    //   style: textTheme.headline2?.copyWith(
+                    //     fontSize: headerIntroTextSize,
+                    //   ),
+                    // ),
+                    // TypewriterAnimatedTextKit(
+                    //   speed: Duration(milliseconds: 500),
+                    //   text: ['Flash Chat'],
+                    //   textStyle: TextStyle(
+                    //     fontSize: 45.0,
+                    //     color: Colors.black,
+                    //     fontWeight: FontWeight.w900,
+                    //   ),
+                    // ),
+                    DefaultTextStyle(
+                      style: TextStyle(
                         fontSize: headerIntroTextSize,
                       ),
-                    ),
-                    SelectableText(
-                      StringConst.POSITION,
-                      style: textTheme.headline2?.copyWith(
-                        fontSize: headerIntroTextSize,
-                        color: AppColors.primaryColor,
-                        height: 1.2,
+                      child: AnimatedTextKit(
+                        repeatForever: true,
+                        pause: Duration(milliseconds: 3000),
+                        animatedTexts: [
+                          TypewriterAnimatedText(
+                            StringConst.INTRO,
+                            textStyle: textTheme.headline2?.copyWith(
+                              fontSize: headerIntroTextSize,
+                            ),
+                          ),
+                        ],
+                        onTap: () {},
                       ),
                     ),
+                    SizedBox(
+                      height:200,
+                      child: DefaultTextStyle(
+                        style: TextStyle(
+                          fontSize: headerIntroTextSize2,
+                        ),
+                        child: AnimatedTextKit(
+                          pause:  Duration(milliseconds: 50),
+                          repeatForever: true,
+                          animatedTexts: [
+                            RotateAnimatedText(
+                              StringConst.POSITION1,
+                              textStyle: textTheme.headline2?.copyWith(
+                                fontSize: headerIntroTextSize2,
+                                color: AppColors.primaryColor,
+                              ),
+                            ),
+                            RotateAnimatedText(
+                              StringConst.POSITION2,
+                              textStyle: textTheme.headline2?.copyWith(
+                                fontSize: headerIntroTextSize2,
+                                    color: AppColors.primaryColor,
+                              ),
+                            ),
+                            // TypewriterAnimatedText('Design first, then code'),
+                            // TypewriterAnimatedText('Do not patch bugs out, rewrite them'),
+                            // TypewriterAnimatedText('Do not test bugs out, design them out'),
+                          ],
+                          onTap: () {},
+                        ),
+                      ),
+                    ),
+                    // SelectableText(
+                    //   StringConst.POSITION,
+                    //   style: textTheme.headline2?.copyWith(
+                    //     fontSize: headerIntroTextSize,
+                    //     color: AppColors.primaryColor,
+                    //     height: 1.2,
+                    //   ),
+                    // ),
                     SpaceH16(),
                     SelectableText(
                       StringConst.ABOUT_ME_1,

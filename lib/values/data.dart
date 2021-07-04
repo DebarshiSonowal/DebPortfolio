@@ -112,15 +112,15 @@ class Data {
     StringConst.AWARDS_1,
     StringConst.AWARDS_2,
     StringConst.AWARDS_3,
-    StringConst.AWARDS_4,
-    StringConst.AWARDS_5,
+    // StringConst.AWARDS_4,
+    // StringConst.AWARDS_5,
   ];
   static List<String> awards2 = [
     StringConst.AWARDS_6,
     StringConst.AWARDS_7,
     StringConst.AWARDS_8,
-    StringConst.AWARDS_9,
-    StringConst.AWARDS_10,
+    // StringConst.AWARDS_9,
+    // StringConst.AWARDS_10,
   ];
   static List<BlogCardData> blogData = [
     BlogCardData(

@@ -114,9 +114,9 @@ class _AwardsSectionState extends State<AwardsSection> {
       child: Container(
         child: Row(
           children: [
-            _buildAwards1(),
-            Spacer(),
-            _buildAwards2(),
+            Flexible(child: _buildAwards1()),
+            Spacer(flex: 4),
+            Flexible(child: _buildAwards2()),
             Spacer(flex: 4),
           ],
         ),
@@ -215,7 +215,7 @@ class _AwardsSectionState extends State<AwardsSection> {
           style: textTheme.headline5,
         ),
         SpaceH16(),
-        ..._buildAwards(Data.awards1),
+        ..._buildAwards(Data.awards2),
       ],
     );
   }
