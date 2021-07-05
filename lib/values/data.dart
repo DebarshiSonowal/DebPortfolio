@@ -75,12 +75,12 @@ class Data {
   static List<SkillCardData> skillCardData = [
     SkillCardData(
       title: StringConst.SKILLS_1,
-      iconData: FontAwesomeIcons.uikit,
+      iconData: FontAwesomeIcons.server,
     ),
-    SkillCardData(title: "", iconData: Icons.pages_outlined), //not being used
+    SkillCardData(title: "1", iconData: Icons.pages_outlined), //not being used
     SkillCardData(
       title: StringConst.SKILLS_2,
-      iconData: FontAwesomeIcons.server,
+      iconData: FontAwesomeIcons.nodeJs,
     ),
     SkillCardData(
       title: StringConst.SKILLS_3,
@@ -90,7 +90,15 @@ class Data {
       title: StringConst.SKILLS_4,
       iconData:Icons.flutter_dash,
     ),
-    SkillCardData(title: "", iconData: Icons.pages_outlined), //not being used
+    SkillCardData(
+      title: StringConst.SKILLS_5,
+      iconData: FontAwesomeIcons.nodeJs,
+    ),
+    SkillCardData(
+      title: StringConst.SKILLS_6,
+      iconData: FontAwesomeIcons.java,
+    ),
+    SkillCardData(title: StringConst.SKILLS_7, iconData:FontAwesomeIcons.js), //not being used
   ];
   static List<StatItemData> statItemsData = [
     StatItemData(

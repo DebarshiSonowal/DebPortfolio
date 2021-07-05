@@ -30,7 +30,7 @@ class StringConst {
   static const String EMAIL = "Email";
   static const String DEV_EMAIL_2 = "debarkhisonowal@gmail.com";
   static const String LinkedIn = "Linkedin";
-  static const String BEHANCE_ID = "https://www.linkedin.com/in/debarshi-sonowal-a48925161";
+  static const String BEHANCE_ID = "https://www.linkedin.com/in/debarshisonowal";
   static const String HIRE_ME_NOW = "Hire Me Now";
   static const String UI_UX = "UI/UX Designer";
   static const String UI_UX_DESC = "creative websites for you";
@@ -80,17 +80,29 @@ class StringConst {
   static const String TOOLS_2_PROFICIENCY = "90%";
   static const String TOOLS_3_NAME = "Sketch";
   static const String TOOLS_3_PROFICIENCY = "70%";
-  static const String SKILLS_1 = "UI/UX Design";
+  static const String SKILLS_1 = "Firebase";
   static const String SKILLS_1_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
-  static const String SKILLS_2 = "Backend";
+  static const String SKILLS_2 = "NodeJs";
   static const String SKILLS_2_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
-  static const String SKILLS_3 = "Android Application";
+  static const String SKILLS_3 = "Android";
   static const String SKILLS_3_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
-  static const String SKILLS_4 = "Flutter Application";
+  static const String SKILLS_4 = "Flutter";
   static const String SKILLS_4_DESC =
+      "We believe direct collaboration with our clients is essential to bringing unique";
+  static const String SKILLS_5 = "Firebase";
+  static const String SKILLS_5_DESC =
+      "We believe direct collaboration with our clients is essential to bringing unique";
+  static const String SKILLS_6 = "Java";
+  static const String SKILLS_6_DESC =
+      "We believe direct collaboration with our clients is essential to bringing unique";
+  static const String SKILLS_7 = "Javascript";
+  static const String SKILLS_7_DESC =
+      "We believe direct collaboration with our clients is essential to bringing unique";
+  static const String SKILLS_8= "";
+  static const String SKILLS_8_DESC =
       "We believe direct collaboration with our clients is essential to bringing unique";
 
   //Stats Section
@@ -107,7 +119,7 @@ class StringConst {
   static const String MEET_MY_PROJECTS = "Meet My Projects";
   static const String MY_WORKS = "my works";
   static const String PROJECTS_DESC =
-      "Product Designer and Digital Creative Director working in design field for 13 years so far, specialized in UI/UX, Branding and digital designs. These are the words we live by in everything we do.";
+      "I have done multiple project using Firebase, MongoDB, Google Maps, NodeJs, Javascript etc to make quality Android and Flutter apps";
   static const String ALL_PROJECTS = "All Projects";
   static const String ALL = "All";
   static const String BRANDING = "Android";
@@ -184,7 +196,7 @@ class StringConst {
   static const String FIND_ME = "Find me on..";
 
   //URL Links
-  static const String LINKED_IN_URL = "https://www.linkedin.com/in/debarshi-sonowal-a48925161";
+  static const String LINKED_IN_URL = "https://www.linkedin.com/in/debarshisonowal";
   static const String INSTAGRAM_URL = "https://www.instagram.com/debarshi_sonowal/";
   static const String GITHUB_URL = "https://github.com/DebarshiSonowal";
   static const String FACEBOOK_URL = "https://www.facebook.com/debarkhi.sonowal/";

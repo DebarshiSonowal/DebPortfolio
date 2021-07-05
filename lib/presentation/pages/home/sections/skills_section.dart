@@ -107,7 +107,7 @@ class _SkillsSectionState extends State<SkillsSection> {
                   child: Center(
                     child: _buildSkillBoxes(
                       boxHeight: 250,
-                      crossAxisCount: 2,
+                      crossAxisCount: 3,
                     ),
                   ),
                 ),
