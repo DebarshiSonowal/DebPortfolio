@@ -5,6 +5,7 @@ import 'package:auto_route/annotations.dart';
   routes: <AutoRoute>[
     // initial route is named "/"
     MaterialRoute(page: HomePage, initial: true),
+
   ],
 )
 class $AppRouter {}

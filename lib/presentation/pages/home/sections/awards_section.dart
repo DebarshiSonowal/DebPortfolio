@@ -115,9 +115,9 @@ class _AwardsSectionState extends State<AwardsSection> {
         child: Row(
           children: [
             _buildAwards1(),
-            Spacer(flex: 4),
+            Spacer(flex: 3),
             _buildAwards2(),
-            Spacer(flex: 4),
+            Spacer(flex: 3),
           ],
         ),
       ),
@@ -198,6 +198,7 @@ class _AwardsSectionState extends State<AwardsSection> {
         Text(
           StringConst.AWARDS_TYPE_TITLE_1,
           style: textTheme.headline6,
+          maxLines: 1,
         ),
         SpaceH16(),
         ..._buildAwards(Data.awards1),
@@ -213,6 +214,7 @@ class _AwardsSectionState extends State<AwardsSection> {
         Text(
           StringConst.AWARDS_TYPE_TITLE_2,
           style: textTheme.headline5,
+          maxLines: 1,
         ),
         SpaceH16(),
         ..._buildAwards(Data.awards2),

@@ -29,8 +29,9 @@ const int menuSpacerRightSm = 3;
 
 class NavSectionWeb extends StatefulWidget {
   final List<NavItemData> navItems;
+  final ScrollController scrollController;
 
-  NavSectionWeb({required this.navItems});
+  NavSectionWeb({required this.navItems,required this.scrollController});
 
   @override
   _NavSectionWebState createState() => _NavSectionWebState();
@@ -78,7 +79,9 @@ class _NavSectionWebState extends State<NavSectionWeb> {
           children: [
             SizedBox(width: logoSpaceLeft),
             InkWell(
-              onTap: () {},
+              onTap: () {
+
+              },
               child: Image.asset(
                 ImagePath.LOGO_DARK,
                 height: Sizes.HEIGHT_52,
@@ -87,7 +90,7 @@ class _NavSectionWebState extends State<NavSectionWeb> {
             SizedBox(width: logoSpaceRight),
             NimbusVerticalDivider(),
             Spacer(flex: 1),
-            ..._buildNavItems(widget.navItems),
+            ..._buildNavItems(widget.navItems,widget.scrollController),
             Spacer(flex: menuSpacerRight),
             ResponsiveBuilder(
               refinedBreakpoints: RefinedBreakpoints(),
@@ -122,10 +125,16 @@ class _NavSectionWebState extends State<NavSectionWeb> {
   _onTapNavItem({
     required GlobalKey context,
     required String navItemName,
+    required ScrollController scrollController
   }) {
     for (int index = 0; index < widget.navItems.length; index++) {
       if (navItemName == widget.navItems[index].name) {
-//        scrollToSection(context.currentContext!);
+        print("ADa ${context.currentContext}");
+        try {
+          scrollToSection(scrollController,index);
+        } catch (e) {
+          print(e);
+        }
         setState(() {
           widget.navItems[index].isSelected = true;
         });
@@ -135,17 +144,22 @@ class _NavSectionWebState extends State<NavSectionWeb> {
     }
   }
 
-  List<Widget> _buildNavItems(List<NavItemData> navItems) {
+  List<Widget> _buildNavItems(List<NavItemData> navItems,ScrollController scrollController) {
     List<Widget> items = [];
     for (int index = 0; index < navItems.length; index++) {
       items.add(
         NavItem(
           title: navItems[index].name,
           isSelected: navItems[index].isSelected,
-          onTap: () => _onTapNavItem(
-            context: navItems[index].key,
-            navItemName: navItems[index].name,
-          ),
+          onTap: () =>
+          {
+            print("key ${navItems[index].key}"),
+            _onTapNavItem(
+              context: navItems[index].key,
+              navItemName: navItems[index].name,
+              scrollController: scrollController,
+            )
+          },
         ),
       );
       items.add(Spacer());

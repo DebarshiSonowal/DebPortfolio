@@ -45,7 +45,9 @@ class ProjectsSection extends StatelessWidget {
                   NimbusButton(
                     buttonTitle: StringConst.ALL_PROJECTS,
                     buttonColor: AppColors.primaryColor,
-                    onPressed: () {},
+                    onPressed: () {
+
+                    },
                   ),
                   SpaceH40(),
 //                Wrap(
@@ -139,9 +141,13 @@ class ProjectCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     TextTheme textTheme = Theme.of(context).textTheme;
     return Container(
-      child: Text(
-        title,
-        style: titleStyle ?? textTheme.subtitle1,
+      child: Column(
+        children: [
+          Text(
+            title,
+            style: titleStyle ?? textTheme.subtitle1,
+          ),
+        ],
       ),
     );
   }

@@ -74,7 +74,7 @@ class SocialButton2 extends StatelessWidget {
           title,
           style: titleStyle ??
               textTheme.subtitle2?.copyWith(
-                fontSize: Sizes.TEXT_SIZE_13,
+                fontSize: Sizes.TEXT_SIZE_10,
                 color: titleColor,
               ),
         ),

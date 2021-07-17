@@ -7,7 +7,7 @@ class StringConst {
   //Nav Section
   static const String NAME_ABBREV = "CA";
   static const String HOME = "Home";
-  static const String SERVICES = "Services";
+  static const String Academics_Certifications = "Credentials";
   static const String ABOUT = "About";
   static const String PROJECTS = "Projects";
   static const String SKILLS = "Skills";
@@ -16,9 +16,11 @@ class StringConst {
   static const String CONTACT_ME = "Contact Me";
   static const String DEV_EMAIL = "debarkhisonowal@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
+  static const String CV_URL = "https://docs.google.com/document/d/1JUU97gZWcxP2Y2M-fgUxStIJyyROG789pQTD7qSGtt0/edit?usp=sharing";
 
   //Header Section
   static const String FIRST_NAME = "Debarshi";
+  static const String FULL_NAME ="Debarshi Sonowal";
   static const String INTRO = "Hi! I'm Debarshi Sonowal -";
   static const String POSITION1 = "Android App. Developer";
   static const String POSITION2 = "Flutter App. Developer";
@@ -127,6 +129,14 @@ class StringConst {
   static const String PHOTOGRAPHY = "Photography";
   static const String WEB_DESIGN = "Web Design";
 
+  static const String Android_PROJ1="Crafty";
+  static const String Android_PROJ_link1="https://play.google.com/store/apps/details?id=com.craftyfashion.crafty";
+  static const String Android_PROJ2="Garhgayan Assamese Typing ";
+  static const String Android_PROJ_link2="https://play.google.com/store/apps/details?id=com.deb.mykeyboard&hl=en";
+  static const String Android_PROJ3="Rhymelt- Indian Antakshari Word Game";
+  static const String Android_PROJ_link3="https://play.google.com/store/apps/details?id=com.ncsoft.rhymeit";
+
+
   //Awards & Section
   static const String MY = "My";
   static const String CV = "CV";
@@ -135,13 +145,13 @@ class StringConst {
   static const String AWARDS_DESC =
       "Pursuing my B.Tech in Computer Science and also doing freelancing by developing applications";
   static const String AWARDS_TYPE_TITLE_1 = "Academics";
-  static const String AWARDS_TYPE_TITLE_2 = "Certifications";
-  static const String AWARDS_1 = "B.Tech in Computer Science (Pursuing)";
-  static const String AWARDS_2 = "Diploma in Computer Science";
+  static const String AWARDS_TYPE_TITLE_2 = "Certificate";
+  static const String AWARDS_1 = "B.Tech - Computer Science(Pursuing)";
+  static const String AWARDS_2 = "Diploma - Computer Science";
   static const String AWARDS_3 = "HSLC from SJV,Joysagar";
   // static const String AWARDS_4 = "Entrepreneur";
   // static const String AWARDS_5 = "First Magazine";
-  static const String AWARDS_6 = "Flutter development bootcamp";
+  static const String AWARDS_6 = "Flutter Development";
   static const String AWARDS_7 = "Python Development";
   static const String AWARDS_8 = "IOT Certification";
   // static const String AWARDS_9 = "For Print Only-Under consideration";

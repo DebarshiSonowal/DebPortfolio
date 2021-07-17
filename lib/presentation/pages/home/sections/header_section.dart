@@ -235,7 +235,7 @@ class _HeaderSectionState extends State<HeaderSection> {
                         NimbusButton(
                           buttonTitle: StringConst.DOWNLOAD_CV,
                           buttonColor: AppColors.primaryColor,
-                          onPressed: () => openUrlLink(StringConst.EMAIL_URL),
+                          onPressed: () => openUrlLink(StringConst.CV_URL),
                         ),
                         SpaceW20(),
                         NimbusButton(

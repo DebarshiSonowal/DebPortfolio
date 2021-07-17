@@ -130,6 +130,12 @@ class Data {
     // StringConst.AWARDS_4,
     // StringConst.AWARDS_5,
   ];
+
+  static List<String> androidproj = [
+    StringConst.Android_PROJ1,
+    StringConst.Android_PROJ2,
+    StringConst.Android_PROJ3,
+  ];
   static List<String> awards2 = [
     StringConst.AWARDS_6,
     StringConst.AWARDS_7,
