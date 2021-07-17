@@ -84,7 +84,7 @@ class _NavSectionWebState extends State<NavSectionWeb> {
               },
               child: Image.asset(
                 ImagePath.LOGO_DARK,
-                height: Sizes.HEIGHT_52,
+                fit: BoxFit.fill,
               ),
             ),
             SizedBox(width: logoSpaceRight),
